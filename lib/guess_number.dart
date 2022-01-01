@@ -22,7 +22,12 @@ void main() {
           print("\nYou have played a total of ${Game().getRound.length} rounds of the game.");
           for(int i = 0; i < Game().getRound.length; i++){
             print('Round${i+1}: ${Game().getRound[i]} guesses.');
+
           }
+          print('╔════════════════════════════════════════');
+          print('║               THANK YOU                ');
+          print('╟────────────────────────────────────────');
+
         }
       }
     } while (!YesorNo);
