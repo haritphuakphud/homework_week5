@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.blue,
       ),
       home:  MyHomePage(),
     );
@@ -35,12 +35,12 @@ class MyHomePage extends StatelessWidget {
         padding: const EdgeInsets.only(top:25.0,bottom: 25.0,left: 250.0,right: 250.0 ),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.yellow.shade100,
+            color: Colors.yellow.shade400,
             // border: Border.all(width: 10.0, color: Colors.green),
             // borderRadius: BorderRadius.circular(15.0),
             boxShadow: [
               BoxShadow(
-                color: Colors.black,
+                color: Colors.green,
                 offset: const Offset(10.0, 10.0),
                 blurRadius: 10.0,
                 spreadRadius: 0.5,
@@ -61,7 +61,7 @@ class MyHomePage extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 10.0),
                         child: Column(
                           children: [
-                            Text('GUESS', style: TextStyle(fontSize: 50.0, color: Colors.deepOrange.shade100), ),
+                            Text('GUESS', style: TextStyle(fontSize: 50.0, color: Colors.black), ),
                             Text('THE NUMBER', style: TextStyle(fontSize: 25.0, color: Colors.red), ),
                           ],
                         ),
